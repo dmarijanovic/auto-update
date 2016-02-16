@@ -1,0 +1,71 @@
+ Log promjena
+ 
+ --za Mobilis pretplatnici--
+ 
+ --1.0.6.0 promijene--
+ - Promijena: Prikaz pretplatnika promijenjen da prikazuje za odabrani mjesec samo
+ - Promijena: Dugme u status baru 'Sljedeca stranica' uklonjena, dodana zamjena
+ - Dodano: Dugme prva stranica, prijasnja stranica, sljedeca stranica, zdanja stranica i dugme 'Idi na'
+ - Dodano: Provijera zadnje aktualne verzije
+ - Dodano: Prozor 'Radim' u slucaju kad poziv zadanjoj radnji traje duze od 0.5 sekunde (trenutno polu aktivno)
+ - Dodano: Pogled poslovnice sad uzima podatke direktno iz tablice poslovnice
+ - Dodano: Prijava se vise nevrsi lokalno, radi query na bazi
+ - Dodano: Dodan brojac prijava za zaposlenika (GUI sucelje nije implementirano)
+ - Ispravak: Zadnja prijava sad radi ispravno za zaposlenika
+ - Ispravak: Anti spam poruka promijenjena sa 2 sekunde na o.3 sekunde
+ - NAPOMENA: Ponovna prijava je potrebna poslje azuriranja 
+ - NAPOMENA: Pogled poslovnice je postavit na 'Sve poslovnice' poslje azuriranja
+ - NAPOMENA: Brisanje pretplatnika, pretplate, poslovnice i zaposlenka nije preporuceno, potrebna implementacija 'active' stanja
+ - Uklonjeni manji bugovi, kod optimiziran, projekt strukturiran, struktura baze dobila manju izmjenu
+ 
+  --1.0.5.0 promijene--
+ - Dodano: ispis korisnika u osnovnom internet pregledniku
+ - Promjena: Anti spam poruka, pomaknuta sa 5 na 2 sekunde
+ - Ispravljen bug gdje se trenutni broj stranice ne osvjezava pravilno
+ - Ispravljen bug kod pretrage preko imena i prezimena gdje je izostanak prezimena dovodio do rusenja aplikacije
+ 
+ --1.0.4.0 promijene--
+ - Promjena: broj pretplatnika po stranici je poveèan sa 20 na 30 
+ - Dodano: Pogled 'Pretplata istekla'
+ - Ispravljen bug u ne prikazivanju stranica u pogledu po mjesecima
+ 
+ --1.0.3.0 promijene--
+ - Popravito: Meduspremnik u prozoru 'Pretplate', dodana mogucnost korekcije podataka, 
+    NAPOMENA: ako je 'Pretplata do isteka' 12 ili 24 a dan u mjesecu je od 1 do 14 tada se mora 
+	oznaèiti dali je pretplata napravita ovog mjeseca ili prošlog mjeseca.
+ - Dodano: Anti spam poruka, osvjezenje se moze praviti 5 sekundi poslje zadnjeg osvjezenja
+ - Dodano: Filter pretplatnika po poslovnicama
+ - Dodano: Program pamti zadnji odabrani 'Pretraga po'
+ - Dodano: Program pamti zadnji odabrani 'Pogled'
+ - Dodano: Program pamti zadnju poziciju forme, program nepamti minimizirano stanje
+ - Ispravljen bug kod prikazivanja isteka pretplata
+ - Promjenjena slika u 'O programu'
+ - Ostalo...
+ 
+ --1.0.2.0 promijene--
+ - Ispravljen bug prilikom prikazivanje 'Istice za' u pretplatama
+ 
+ --1.0.1.0 promijene--
+ - Dodana opcija produživanja ugovora za x mjeseci (u sluèaju privremenog iskljuèenja)
+   NAPOMENA: vrijednost može biti i negativan broj ( može se koristiti u sluèaju pogrešnog unosa
+   za ispravak)
+ - Dodan izbornik 'Izlaz sa odjavom', normalan izlaz pamti zadnjeg logiranog korisnika
+ - Ispravljen bug kod dodavanja pretplatnika preko meðuspremnika ( MB/MBG i razmaci)
+ - Ispravljen bug kod prikazivanja isteka pretplata (11 mjesec 44 dana)
+ - Ispravljen bug sa ažuriranjem zaposlenika
+ - Ostalo...
+ 
+ --1.0.0.0 promijene
+ - Prvo puštanje
+ 
+ 
+  --za Mobilis AutoUpdate--
+  
+   --1.0.2.0
+ - Manje GUI promijene
+  
+ --1.0.1.0
+ - Dodan log promjena
+ 
+ --1.0.0.0
+ - Prvo puštanje

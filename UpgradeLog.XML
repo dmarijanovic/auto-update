@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AutoUpdate">
+</Property><Property Name="Solution File" Value="D:\temp\AutoUpdate\AutoUpdate.sln">
+</Property><Property Name="Date" Value="četvrtak, 20. studeni 2008">
+</Property><Property Name="Time" Value="1:22:15">
+</Property></Properties><Event ErrorLevel="0" Project="AutoUpdate" Source="AutoUpdate.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AutoUpdate" Source="AutoUpdate.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AutoUpdate" Source="AutoUpdate.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
